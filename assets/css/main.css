@@ -1,0 +1,45 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #88135D;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 90%;
+}
+.container a{
+	float: left;
+	width: 700px;
+	height: 700px;
+}
+img{
+	width: 100%;
+}
+.carousel{
+	
+	float: left;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.navigation{
+	width: 2600px;
+}
+.navigation ul{
+	list-style: none;
+	margin: 10px auto 10px auto;
+	
+}
+.navigation ul li{
+	
+}
+.navigation ul li a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	margin-right: 10px;
+	background-color: yellow;
+}
+.navigation ul li a:hover, navigation ul li a.active{
+	background-color: black;
+}
