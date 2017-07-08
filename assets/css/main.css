@@ -1,45 +1,64 @@
-body{
-	font-family: 'Raleway', sans-serif;
-	background-color: #88135D;
-	margin: 0;
-	padding: 0;
+
+* {
+  box-sizing: border-box;
 }
-.container{
-	width: 90%;
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: #EFC076;
 }
-.container a{
-	float: left;
-	width: 700px;
-	height: 700px;
+
+.container-2{
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 10px #fff,
+  0 15px 50px;
 }
-img{
+
+.carousel {
+  display: flex;
+  width: 300%;
+
+}
+.pandas{
 	width: 100%;
 }
-.carousel{
-	
-	float: left;
-	overflow-y: hidden;
-	overflow-x: hidden;
+.slider-pandas{
+  display: block;
+  width: 800px;
+  height: 100%;
+
+
 }
-.navigation{
-	width: 2600px;
+
+.btn-prev, .btn-next {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  font-family: monospace;
+  cursor: pointer;
 }
-.navigation ul{
-	list-style: none;
-	margin: 10px auto 10px auto;
-	
+
+.btn-prev:hover, .btn-next:hover {
+  background: white;
 }
-.navigation ul li{
-	
+
+.btn-prev {
+  left: 10px;
 }
-.navigation ul li a{
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 10px;
-	margin-right: 10px;
-	background-color: yellow;
-}
-.navigation ul li a:hover, navigation ul li a.active{
-	background-color: black;
+
+.btn-next {
+  right: 10px;
 }
