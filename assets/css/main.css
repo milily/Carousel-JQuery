@@ -3,20 +3,20 @@
   	box-sizing: border-box;
 }
 body {
-	display: flex;
-	min-height: 100vh;
-	background: #34495e;
-	font-family: 'Pacifico', cursive;
+	 display: flex;
+	 min-height: 100vh;
+	 background-image: url(https://static3.depositphotos.com/1001046/150/v/950/depositphotos_1506655-stock-illustration-bamboo-background.jpg);
+	 font-family: 'Pacifico', cursive;
 }
 h1{
-	position: relative;
-	left: 500px;
-	margin-top: 50px;
-	color: #e74c3c;
-	font-size: 3em;
+	 position: relative;
+	 left: 500px;
+	 margin-top: 50px;
+	 color: #e74c3c;
+	 font-size: 3em;
 }
 .carousel{
-	margin-top: 150px;
+	  margin-top: 150px;
     height: 400px;
     max-width: 810px;
     position: relative;
@@ -30,7 +30,7 @@ h1{
   	width: 300%;
 }
 .pandas{
-	width: 100%;
+	 width: 100%;
 }
 .slider-pandas{
   	display: block;
