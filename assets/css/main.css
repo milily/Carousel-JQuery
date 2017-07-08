@@ -9,9 +9,9 @@ body {
   background: #EFC076;
 }
 
-.container-2{
+.carousel{
   margin: auto;
-  width: 100%;
+  width: 85%;
   max-width: 900px;
   position: relative;
   overflow: hidden;
@@ -19,7 +19,7 @@ body {
   0 15px 50px;
 }
 
-.carousel {
+.slider {
   display: flex;
   width: 300%;
 
@@ -30,9 +30,6 @@ body {
 .slider-pandas{
   display: block;
   width: 800px;
-  height: 100%;
-
-
 }
 
 .btn-prev, .btn-next {
