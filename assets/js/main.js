@@ -1,3 +1,7 @@
+//Pude hacer que funcionara el carrusel (me guié de un video de Youtube) pero hay algunas cosas en
+//las funciones que no me quedan muy claras.
+
+
 //almacenar slider en una variable
 var slider = $('#slider');
 //almacenar botones
